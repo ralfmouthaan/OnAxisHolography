@@ -5,7 +5,7 @@
 % Returns an object consisting of two beads.
 % Most of the parameters are hard-coded in.
 
-function [F, x] = Target_TwoBeads(x, lambda)
+function F = Target_TwoBeads(x, lambda)
 
     [x_mesh, y_mesh] = meshgrid(x, x.');
     Radius = 0.5e-6;
